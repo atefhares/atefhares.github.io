@@ -1,31 +1,33 @@
-name: Atef Hares
+# Site settings
+title: Atef Hares
+url: "http://atefhares.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+baseurl: "/jekyll-theme-EasyBook" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
+#timezone: Asia/Chongqing
+description: >
+  One or more sentences introducing this blog.
+
+# Your information
+email: your_email@example.com
 author: Atef Hares
-baseurl: /blog
-description: Personal Blog
-github: http://www.github.com/arnp
-twitter: http://www.twitter.com/
-facebook: http://www.facebook.com
-linkedin: http://www.linkedin.com
-email: rnpatel[at]me.com
-location: 42°2'16"N   70°12'47"W
-disqus: diqus-username
+avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
+profile: One sentence introducing yourself.
+#twitter_username: twitter_username
+#github_username:  github_username
 
-##Make sure to edit the above fields, especially for disqus.
+# Comment Service (Disqus or 多说)
+#  choose one and un-comment the line to active it
+#disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
+#duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
 
+permalink: /archivers/:title
+gems:
+ - jekyll-paginate
+ - jekyll-gist
+ - jemoji
+
+# Build settings
+paginate: 5
+paginate_path: "page:num"
 
 highlighter: pygments
 markdown: redcarpet
-redcarpet:
-  extensions: ["tables"]
-
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"

@@ -1,42 +1,43 @@
 ---
-title: Atef Hares's Blog
+layout: default
 ---
 
-{% include showcase.html %}
-{% include greeting.html %}
+<div class="home">
+  <a class="rss-link" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS Feed</a>
+  <h1 class="page-heading">Articles</h1>
 
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+    <li>
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+      
+      <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
 
-{% if site.posts != empty %}
-
-<div class="recent-posts">
-  <h1>Recent Posts</h1>
-  {% for post in site.posts limit: 3 %}
-    {% if forloop.first %}
-      {% assign add_class = 'most-recent' %}
-      {% capture fresh_tag %}
-        &nbsp;<span class="badge"><smaller>NEW</smaller></span>
-      {% endcapture %}
+      <div class="post-excerpt">
+        {{ post.excerpt }}
+        <p>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More &raquo;</a>
+        </p>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+  
+  <!-- Pagination links -->
+  <div class="pagination">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">PREV</a>
+    {% else %}
+    <span class="previous">PREV</span>
     {% endif %}
-    <ul class="homepage-posts {{ add_class }}">
-      <li>
-        <span>
-          <h4>
-            <a href="{{ site.baseurl }}/{{ post.url }}">
-              {{ post.title }}
-            </a>
-            {{ fresh_tag }}
-            <time class="pull-right">
-              {{ post.date | date_to_string | date: "%b %-d, %Y"  }}
-            </time>
-          </h4>
-        </span>
-      </li>
-    </ul>
-    {% assign add_class = '' %}
-    {% assign fresh_tag = '' %}
-  {% endfor %}
-  <ul>
-    <a href="{{ site.baseurl }}/list.html">View More...</a>
-  </ul></div>
+    <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">NEXT</a>
+    {% else %}
+    <span class="next ">NEXT</span>
+    {% endif %}
+  </div>
 
-{% endif %}
+</div>

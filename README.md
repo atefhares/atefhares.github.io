@@ -1,44 +1,55 @@
-This repository is no longer maintained. 
-============
+# jekyll-theme-EasyBook
 
-Herring Cove
-============
+Another Jekyll Blog Theme "EasyBook"
 
-Herring Cove is a clean and responsive theme for Jekyll. 
+Start blogging with a simple but powerful theme.
 
+## Features
 
-### Overview 
+- Everything Basic Jekyll has.
+- **Pagination** is enabled.
+- **Comments** using Disqus or 多说.
+- **TOC** makes reading easier.
+- **Profile** including your links and avatar on the sidebar.
+- *And more...*
 
-* Fixed Sidebar with social links
-* Minimal design 
-* Comments by Disqus
-* Social Sharing abilities 
-* Easy to configure
-* Based on Bootstrap
+## Install
 
-### Screenshots
+Read [Quick Guide] to learn how to install and publish.
 
-![screenshot](/images/screenshot1.png)
-![screenshot](/images/screenshot2.png)
+Read [Welcome to Jekyll and EasyBook][helloPost] and [Jekyll][jekyll] for further information.
 
-### Setup
+**If need help, please:**
 
-1. Install Jekyll
-2. Fork or [download](https://github.com/arnp/herring-cove/archive/master.zip) this theme repo
-3. Edit the `_config.yml` file
+ - [**Read Wiki pages**](https://github.com/laobubu/jekyll-theme-EasyBook/wiki)
+ - **Google it**
+ - [**Submit an issue**](https://github.com/laobubu/jekyll-theme-EasyBook/issues/new)
 
-You can change the showcase image by replacing `showcase.jpg` file in the `images` folder. I'll try to find a better way to do this soon. 
+## Donate
 
-### Download
+Buy me a coffee if you find EasyBook useful for you :smiley:
 
-[download](https://github.com/arnp/herring-cove/archive/master.zip)
+Visit <http://laobubu.net/donate.html>
 
-### License
-* [MIT](http://opensource.org/licenses/MIT)
+## Demo
 
--------------
-Herring Cove is always a work in progress and as such, I hope to clean up the code and add features as time permits. Feel free to add your own additions. 
+[laobubu's blog](http://blog.laobubu.net) | [empty site](http://laobubu.github.io/jekyll-theme-EasyBook)
 
-*What's with the name?*
+![Homepage](https://ooo.0o0.ooo/2016/02/11/56bc997c65daf.png)
 
-[Herring Cove](http://www.capecodbeachchair.com/beachguide/index.cfm?page=3&BeachID=5) is a beach on Cape Cod in Provincetown, Massachusetts. If you're in the area, be sure to check it out!
+## License
+
+```
+The MIT License (MIT)
+Copyright (c) 2016 laobubu
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
+
+[Quick Guide]: https://github.com/laobubu/jekyll-theme-EasyBook/wiki/Quick-Guide
+[helloPost]: http://laobubu.github.io/jekyll-theme-EasyBook/archivers/hello
+[jekyll]: http://jekyllrb.com/

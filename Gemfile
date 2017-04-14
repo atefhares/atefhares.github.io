@@ -8,5 +8,8 @@ group :jekyll_plugins do
   gem 'jekyll-feed', '0.7.2'
 end
 
+gem 'jekyll-paginate'
+gem 'jekyll-gist'
+gem 'jemoji'
 gem 'pygments.rb'
 gem 'redcarpet'

@@ -1,32 +1,25 @@
----
----
 <!DOCTYPE html>
-<html lang="en">
+<html>
+{% include head.html %}
 
+<body>
 
-  <head>
-  
   {% include header.html %}
 
-
-  <header class="header">
-    <div class="topborder"></div>
-  </header>
-  
-  </head>
-
-
-  <body>
-    <div class="nav-toggle"><i class="fa fa-bars fa-2x"></i> Herring Cove </div>
-    <div id = "wrapper">
-      {%include navigation.html %}
-      <div class="container">
+  <div class="page-content">
+    <div class="wrapper">
+      <div class="col-second">
+        {% include sidebar.html %}
+      </div>
+      <div class="col-main">
         {{ content }}
       </div>
-      {% include footer.html %}
-    </div>
-    {% include scripts.html %}
-  </body>
 
-  
+    </div>
+  </div>
+
+  {% include footer.html %}
+
+</body>
+
 </html>
