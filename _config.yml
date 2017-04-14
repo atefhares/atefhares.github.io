@@ -30,4 +30,4 @@ paginate: 5
 paginate_path: "page:num"
 
 highlighter: pygments
-markdown: redcarpet
+markdown: kramdown
