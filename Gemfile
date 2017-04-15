@@ -11,5 +11,3 @@ end
 gem 'jekyll-paginate'
 gem 'jekyll-gist'
 gem 'jemoji'
-gem 'pygments.rb'
-gem 'redcarpet'

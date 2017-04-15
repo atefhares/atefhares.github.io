@@ -11,15 +11,17 @@ email: your_email@example.com
 author: Atef Hares
 avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
 profile: One sentence introducing yourself.
-#twitter_username: twitter_username
-#github_username:  github_username
+#twitter_username: mratefhares
+github_username:  atefhares
+stack-overflow_username:  atef-hares
+linkedin_username:  atefhares
 
 # Comment Service (Disqus or 多说)
 #  choose one and un-comment the line to active it
 #disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
 #duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
 
-permalink: /archivers/:title
+permalink: /:title
 gems:
  - jekyll-paginate
  - jekyll-gist
@@ -29,5 +31,22 @@ gems:
 paginate: 5
 paginate_path: "page:num"
 
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
+
+kramdown:
+  input: GFM
+  # https://github.com/jekyll/jekyll/pull/4090
+  syntax_highlighter: rouge
+
+  # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
+  # span, block element options fall back to global
+  syntax_highlighter_opts:
+    # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: 'highlight'
+    #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
