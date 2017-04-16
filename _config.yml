@@ -3,7 +3,7 @@ title: Atef Hares
 url: "https://atefhares.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
 baseurl: "/blog" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
 description: >
-  Atef Hares's blog
+  Atef Hares - Self learner and Software developer
 
 show_dir_listing: false
 version: v1.0.0
