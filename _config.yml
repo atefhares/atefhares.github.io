@@ -6,10 +6,10 @@ description: >
   Atef Hares's blog
 
 show_dir_listing: false
-
+version: v1.0.0
 
 # Outputting
-permalink: title
+permalink: /:title/
 paginate_path: "page:num"
 paginate: 5
 timezone: Africa/Cairo
@@ -30,6 +30,9 @@ profile: Self learner and Software developer
 github_username:  atefhares
 stack-overflow_username:  atef-hares
 linkedin_username:  atefhares
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: 
 
 # Comment Service (Disqus or 多说)
 #  choose one and un-comment the line to active it
@@ -58,7 +61,7 @@ gems:
 # Handling Reading
 safe:         false
 include:      [".htaccess"]
-exclude:      ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+exclude:      ["Gemfile", "Gemfile.lock", "LICENSE.md", "README.md", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
 keep_files:   [".git", ".svn"]
 encoding:     "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
