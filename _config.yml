@@ -1,13 +1,28 @@
 # Site settings
 title: Atef Hares
-url: "http://atefhares.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+url: "https://atefhares.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
 baseurl: "/blog" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
-#timezone: Asia/Chongqing
 description: >
   One or more sentences introducing this blog.
 
+show_dir_listing: false
+
+
+# Outputting
+permalink: title
+paginate_path: "page:num"
+paginate: 5
+timezone: Africa/Cairo
+
+quiet:    false
+verbose:  false
+defaults: []
+
+liquid:
+  error_mode: warn
+
 # Your information
-email: your_email@example.com
+email: atef_moh@sci.asu.edu.eg
 author: Atef Hares
 avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
 profile: One sentence introducing yourself.
@@ -21,20 +36,50 @@ linkedin_username:  atefhares
 #disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
 #duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
 
-permalink: /:title
+# Where things are
+source:       .
+destination:  ./_site
+plugins_dir:  _plugins
+layouts_dir:  _layouts
+data_dir:     _data
+includes_dir: _includes
+collections:
+  posts:
+    output:   true
+
+# Plugins
+whitelist: []
 gems:
  - jekyll-paginate
  - jekyll-gist
  - jemoji
+ - jekyll-sitemap
+
+# Handling Reading
+safe:         false
+include:      [".htaccess"]
+exclude:      ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future:      false
+unpublished: false
+
 
 # Build settings
-paginate: 5
-paginate_path: "page:num"
-
 highlighter: rouge
 markdown: kramdown
 
 kramdown:
+  auto_ids:       true
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
   input: GFM
   # https://github.com/jekyll/jekyll/pull/4090
   syntax_highlighter: rouge
