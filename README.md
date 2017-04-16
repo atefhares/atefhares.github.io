@@ -1,9 +1,12 @@
-# About
+## About
 
 Atef Hares's personal blog.
 
 A personal blog contains my own thoughts
 
+## Author
+- Atef Hares
+- Web site: [https://atefhares.github.io/](https://atefhares.github.io/)
 
 ## Licenses
 - <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
