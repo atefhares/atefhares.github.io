@@ -3,7 +3,7 @@ title: Atef Hares
 url: "https://atefhares.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
 baseurl: "/blog" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
 description: >
-  One or more sentences introducing this blog.
+  Atef Hares's blog
 
 show_dir_listing: false
 
@@ -25,7 +25,7 @@ liquid:
 email: atef_moh@sci.asu.edu.eg
 author: Atef Hares
 avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
-profile: One sentence introducing yourself.
+profile: Self learner and Software dvevloper
 #twitter_username: mratefhares
 github_username:  atefhares
 stack-overflow_username:  atef-hares
