@@ -1,40 +1,33 @@
 
-.body{
-	font-family: 'Courgette', cursive;
+.col-main{
+ 	margin: auto !important;
+    text-align:center !important;
+    top:0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+
+    margin: auto !important;
 }
-.body{
-	background:#f3f3e1;
-}	
-.wrap{
-	margin:0 0;
-	width:1000px;
-}
-.logo{
-	margin-top:100px;
-	margin-right:100px;
-}	
-.logo h1{
-	font-size:200px;
-	color:#8F8E8C;
+.notfound h1{
+	font-family: 'Lobster', cursive;
+	font-size:250px;
+	color:#709363;
 	text-align:center;
-	margin-bottom:1px;
 	text-shadow:1px 1px 6px #fff;
 }	
-.logo p{
-	color:rgb(228, 146, 162);
-	font-size:20px;
+.notfound p{
+	color:#1AAD6C;
+	font-size:30px;
 	margin-top:1px;
 	text-align:center;
-}	
-.logo p span{
-	color:lightgreen;
-}	
+}		
 .sub a{
 	color:white;
-	background:#8F8E8C;
+	background:#289C61;
 	text-decoration:none;
 	padding:7px 120px;
-	font-size:13px;
+	font-size:20px;
 	font-family: arial, serif;
 	font-weight:bold;
 	-webkit-border-radius:3em;

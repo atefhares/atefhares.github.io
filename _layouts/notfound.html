@@ -3,6 +3,9 @@
 <html>
 {% include head.html %}
 
+<link rel="stylesheet" href="{{ "/css/404.css" | prepend: site.baseurl }}">
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
 <body>
 
 	{% include header.html %}
@@ -14,11 +17,11 @@
 			</div>
 			<div class="col-main">
 				<div class="wrap">
-					<div class="logo">
-						<h1>404</h1>
+					<div class="notfound">
+						<h1>404!</h1>
 						<p>Error! - Page Not Found</p>
 						<div class="sub">
-							<p><a href="#">Back</a></p>
+							<p><a href="{{ site.baseurl }}/">Home</a></p>
 						</div>
 					</div>
 				</div>
