@@ -1,15 +1,15 @@
 # Site settings
 title: Atef Hares
 url: "https://atefhares.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
-baseurl: "/blog" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
+baseurl: "" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
 description: Atef Hares | Self learner and Software developer
 
 show_dir_listing: false
 version: v1.0.0
 
 # Outputting
-permalink: /:title/
-paginate_path: "page:num"
+permalink: blog/:categories/:year/:month/:day/:title/
+paginate_path: "/blog/page:num"
 paginate: 5
 timezone: Africa/Cairo
 

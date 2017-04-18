@@ -30,18 +30,37 @@
 		font-size: $base-font-size;
 		line-height: $base-font-size * 2;
 	}
+
+	.site-blog {
+		float: left;
+		color: $header-fg;
+		text-decoration: none;
+		font-size: $base-font-size;
+		line-height: $base-font-size * 2;
+		margin-left: 22px; 
+	}
+
+
 	.site-nav {
 		text-align:right;
 		
 		a {
 			text-decoration: none;
 			color: $header-link;
-			padding: 10px 20px;
+			padding: 5px 20px;
 			white-space: nowrap;
 		
 			&:hover, &:focus {
-				background: $header-bg-hover;
+				background: #FFF;
+				color: $header-bg;
 			}
+		}
+
+
+		.circle{
+			border:1px solid #FFF;    
+			-moz-border-radius:75px;
+			-webkit-border-radius: 75px;
 		}
 	}
 }
@@ -222,6 +241,9 @@
 			text-align:center;
 		}
 		.site-title {
+			float: none;
+		}
+		.site-blog {
 			float: none;
 		}
 	}
