@@ -23,7 +23,7 @@ liquid:
 # Your information
 email: atef_moh@sci.asu.edu.eg
 author: Atef Hares
-avatar: "https://atefhares.github.io/assets/images/profile.png"
+avatar: "/resources/images/profile.png"
 profile: Self learner and Software developer
 #twitter_username: mratefhares
 github_username:  atefhares
