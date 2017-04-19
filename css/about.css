@@ -1,20 +1,23 @@
+/*The folowwing btn exists in main page*/
 .btn {
     margin-top: -5px;
     font-weight: bold;
 }
 a.btn-cta-primary, .btn-cta-primary {
-  margin-right: 5px;
-  background: #ffffff;
-  border: 1px solid #42ce66;
-  color: #26ad52;
-  font-weight: 600;
-  text-transform: uppercase;
+  	float:right !important;
+    text-decoration: none !important;
+    border:1px solid #26ad52 !important;
+    color: #26ad52 !important;
+    background: #fff !important;
+    font-size:  14px !important;
+    padding: 1px 8px !important;
+    text-transform: uppercase !important;
 }
 
-a.btn-cta-primary:visited:hover, .btn-cta-primary:visited:hover {
-  background: #1AAD6C;
-  border: 1px solid #1AAD6C;
-  color: #fff;
+a.btn-cta-primary:hover, .btn-cta-primary:focus {
+  background: #1AAD6C !important;
+  border: 1px solid #fff !important;
+  color: #fff !important;
 }
 
 a.btn-cta-primary:visited, .btn-cta-primary:visited {
@@ -35,12 +38,7 @@ a.btn-cta-primary:visited, .btn-cta-primary:visited {
     float: right;
 }
 
-@media (max-width: 1200px) {
-  .btn {
-    margin-top: -5px;
-    font-weight: bold;
-  }
-}
+
 
 /* The following is:
  * Modified by Atef Hares
