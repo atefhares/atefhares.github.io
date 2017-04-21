@@ -10,8 +10,8 @@ $(document).ready(function() {
 
 
   function showMath() {
-    num1 = Math.floor(Math.random() * 20);
-    num2 = Math.floor(Math.random() * 20);
+    num1 = Math.floor(Math.random() * 11);
+    num2 = Math.floor(Math.random() * 11);
     correct = num1 + num2;
     //Populate our question paragraph
     $("#question").html("The result of " + num1 + " + " + num2 + " is:");
