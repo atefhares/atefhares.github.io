@@ -1,0 +1,42 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<link rel="stylesheet" href="{{ " /css/contactform.css " | prepend: site.baseurl }}">
+<script src = "{{ "/js/contactform.js " | prepend: site.baseurl }}"></script>
+
+<form id="contact" action="https://docs.google.com/forms/d/e/1FAIpQLScmQHTuCtEDjp_ZoIgtO3RZIOsZU6TVdEHGZVZEI1IBld5-Jw/formResponse" method="post" autocomplete="off">
+  <div class="row">
+    <div class="col-md-6">
+      <input type="text" placeholder="Name" name="entry.467486401" required="required" />
+      <input type="email" placeholder="Email" name="entry.766013347" required="required" />
+      <input type="text" placeholder="Subject" name="entry.558309731" required="required" />
+    </div>
+    <div class="col-md-6">
+      <textarea placeholder="Message" name="entry.696852549" required="required"></textarea>
+    </div>
+  </div>
+
+  <div id="questiondiv" class="row" class="hidden">
+    <div class="col-md-4">
+      <label id="question"> Question </label>
+    </div>
+    <div class="col-md-3">
+      <input id="answer" type="text" placeholder="Answer" required="required" />
+    </div>
+    <div class="col-md-3">
+      <label id="wronganswer" class="hidden">Wrong Answer!</label>
+    </div>
+  </div>
+
+  <div class="row">
+    <div id="submit" class="send-button cl">
+      <button type="submit">Send</button>
+    </div>
+  </div>
+
+</form>
+<div id="sent" class="sent" class="hidden">
+  <h1>Your message have been recorded!</h1>
+  <p>I will try to contact you ASAP</p>
+  <div class="sub">
+    <p><a href="{{ site.baseurl }}/">Home</a></p>
+  </div>
+</div>

@@ -1,0 +1,37 @@
+$(document).ready(function() {
+  $("#questiondiv").removeClass("hidden")
+
+  var num1;
+  var num2;
+  var correct;
+  var answer;
+
+  showMath();
+
+
+  function showMath() {
+    num1 = Math.floor(Math.random() * 20);
+    num2 = Math.floor(Math.random() * 20);
+    correct = num1 + num2;
+    //Populate our question paragraph
+    $("#question").html("The result of " + num1 + " + " + num2 + " is:");
+  }
+
+  //Accept form input
+  $("#contact").submit(function(event) {
+    answer = $("#answer").val();
+    if (answer == correct) {
+
+    } else {
+      //Result is not a number. Alert the user.
+      event.preventDefault();
+      $("#wronganswer").removeClass("hidden")
+      setTimeout(function() {
+        $("#wronganswer").addClass("hidden")
+      }, 2000);
+      showMath();
+    }
+  });
+
+
+});

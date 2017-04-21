@@ -1,0 +1,92 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+*{
+	margin: 0;
+	padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+::-webkit-input-placeholder{color: #777;}
+:-moz-placeholder { /* Firefox 18- */ color: #777;}
+::-moz-placeholder {  /* Firefox 19+ */ color: #777;}
+:-ms-input-placeholder {color: #777;}
+#contact{
+  padding: 30px;
+}
+
+#contact label{
+	display: block;
+	padding: 10px;
+	margin: 10px auto;
+	width: 100%;
+	font-size: 18px;
+	color: #777;
+	padding-right: -20px;
+}
+
+#contact input[type="text"],#contact input[type="email"], #contact textarea{
+	display: block;
+	padding: 10px;
+	margin: 10px auto;
+	width: 100%;
+	font-size: 18px;
+	color: #777;
+  border: 1px solid #ccc;
+}
+
+#contact input:hover, #contact textarea:hover{
+	border: 1px solid #888;
+}
+#contact input:focus, #contact textarea:focus{
+	border: 1px solid #777;
+}
+
+
+#contact textarea{
+	font-size: 16px;
+	max-width: 100%;
+	min-width: 100%;
+	max-height: 162px;
+	min-height: 162px;
+  resize: none;
+}
+
+#contact .send-button{
+	text-align: center;
+  margin-top: 4px;
+}
+
+#contact .send-button button[type="submit"]{
+	color: #fff;
+  background: #1AAD6C;
+  position: relative;
+  border: none;
+	width: 100%;
+	padding: 10px 0;
+	font-size: 20px;
+	text-transform: uppercase;
+	transition: .5s all ease;
+  cursor: pointer;
+}
+
+#contact .send-button button[type="submit"]:hover{
+	background: #72bf69;
+}
+
+#contact .send-button button[type="submit"]:focus{
+	position: relative;
+}
+
+#wronganswer{
+	color: #DC143C !important;
+}
+
+#wronganswer .hidden{
+	display: none;
+}
+#answer{
+	padding: 5px !important;
+}
