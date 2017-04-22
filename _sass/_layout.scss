@@ -16,13 +16,13 @@
 	background-color: $header-bg;
 	padding: 10px;
 	margin: 0;
-	
+
 	&:after {
 		clear: both;
 		content: ' ';
 		display: block;
 	}
-	
+
 	.site-title {
 		float: left;
 		color: $header-fg;
@@ -37,19 +37,19 @@
 		text-decoration: none;
 		font-size: $base-font-size;
 		line-height: $base-font-size * 2;
-		margin-left: 22px; 
+		margin-left: 22px;
 	}
 
 
 	.site-nav {
 		text-align:right;
-		
+
 		a {
 			text-decoration: none;
 			color: $header-link;
 			padding: 5px 20px;
 			white-space: nowrap;
-		
+
 			&:hover, &:focus {
 				background: #FFF;
 				color: $header-bg;
@@ -58,7 +58,7 @@
 
 
 		.circle{
-			border:1px solid #FFF;    
+			border:1px solid #FFF;
 			-moz-border-radius:75px;
 			-webkit-border-radius: 75px;
 		}
@@ -91,7 +91,7 @@
 			background: #1aad6c;
 		}
 	}
-	
+
 	img {
 		max-width:100%;
 	}
@@ -117,7 +117,7 @@
 	color: #FFF;
 	font-size: $small-font-size;
 	padding-bottom: 20px;
-	
+
 	p {
 	    margin: 0;
 	}
@@ -125,17 +125,20 @@
         padding-left: 20px;
         margin: 0;
     }
-	
+
 	&:not(:first-child) {
     	border-top: 1px solid #FFF;
     	padding-top: 20px;
     }
-    
+
     .col-box-title {
     	color: #FFF;
 	    margin-bottom: 10px;
 	    font-size: $small-font-size * 1.1;
     }
+		.list-unstyled{
+			margin-left: -18px;
+		}
 }
 @media (max-width: 1120px) {
 	.page-content .wrapper:before {
@@ -174,7 +177,7 @@
 		font-size: $base-font-size;
 	}
 
-	
+
 	.social a{
 	    background: #fff;
 		width: 36px;
@@ -195,16 +198,16 @@
 	.social a:hover {
 	  background: #bed8c7;
 	}
-	
+
 	.fa {
       color: #2a5b8e;
     }
-     
+
     .social a .fa {
 		font-size: 20px;
 		padding-top: 7px;
 	}
-	
+
 
 	.list-inline {
 	    margin: 20px 10px;

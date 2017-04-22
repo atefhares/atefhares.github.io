@@ -3,34 +3,35 @@
   <div class="col-box-title name">{{ site.author }}</div>
   <p>{{ site.profile }}</p>
 
-  {% if site.twitter_username %}
-  <ul class="social list-inline">
-    <li>
-      <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"> <i class="fa fa-linkedin"> </i></a>
-    </li>
-  </ul>
-  {% endif %} {% if site.linkedin_username %}
-  <ul class="social list-inline">
-    <li>
-      <a href="https://eg.linkedin.com/in/{{ site.linkedin_username }}" target="_blank"> <i class="fa fa-linkedin "> </i></a>
-    </li>
-  </ul>
-  {% endif %} {% if site.stack-overflow_username %}
-  <ul class="social list-inline">
-    <li>
-      <a href="http://stackoverflow.com/users/5993410/{{ site.stack-overflow_username }}" target="_blank"><i class="fa fa-stack-overflow fa-colored"></i></a>
-    </li>
-  </ul>
-  {% endif %} {% if site.github_username %}
-  <ul class="social list-inline">
-    <li>
-      <a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fa fa-github-alt"></i></a>
-      <br>
-    </li>
-  </ul>
-  {% endif %}
+  <div class="contacts-list">
+    {% if site.twitter_username %}
+    <ul class="social list-inline">
+      <li>
+        <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"> <i class="fa fa-linkedin"> </i></a>
+      </li>
+    </ul>
+    {% endif %} {% if site.linkedin_username %}
+    <ul class="social list-inline">
+      <li>
+        <a href="https://eg.linkedin.com/in/{{ site.linkedin_username }}" target="_blank"> <i class="fa fa-linkedin "> </i></a>
+      </li>
+    </ul>
+    {% endif %} {% if site.stack-overflow_username %}
+    <ul class="social list-inline">
+      <li>
+        <a href="http://stackoverflow.com/users/5993410/{{ site.stack-overflow_username }}" target="_blank"><i class="fa fa-stack-overflow fa-colored"></i></a>
+      </li>
+    </ul>
+    {% endif %} {% if site.github_username %}
+    <ul class="social list-inline">
+      <li>
+        <a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fa fa-github-alt"></i></a>
+        <br>
+      </li>
+    </ul>
+    {% endif %}
 
-  <!--   <p class="contact">
+    <!--   <p class="contact">
     {% if site.github_username %}
     <a href="https://github.com/{{ site.github_username }}">GitHub</a>
     {% endif %}
@@ -41,6 +42,7 @@
     <a href="mailto:{{ site.email }}">Email</a>
     {% endif %}
   </p> -->
+  </div>
 </div>
 
 <div class="col-box">

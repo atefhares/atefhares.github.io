@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact Me
+title: Quick contact me
 permalink: /contactme.html
 nocomments: true
 public: false
