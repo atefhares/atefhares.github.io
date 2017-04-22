@@ -196,26 +196,14 @@ h2 {
   border-bottom: 0 !important;
   color: #545E6C  !important ;
 }
-.skillset .level-bar {
-  height: 12px;
-  background: #f5f5f5;
-}
-.skillset .level-bar-inner {
-  height: 12px;
-  background: #7bc2d3;
-}
-.footer {
-  padding: 30px;
-  padding-top: 60px;
-}
-.footer .copyright {
+
+.copyright {
   line-height: 1.6;
   color: #545E6C;
   font-size: 13px;
+  padding-top: 40px;
 }
-.footer .fa-heart {
-  color: #fb866a;
-}
+
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .sidebar-wrapper {
