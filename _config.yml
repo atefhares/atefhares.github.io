@@ -13,10 +13,6 @@ paginate_path: "/blog/page:num"
 paginate: 5
 timezone: Africa/Cairo
 
-quiet:    false
-verbose:  false
-defaults: []
-
 liquid:
   error_mode: warn
 
@@ -31,7 +27,7 @@ stack-overflow_username:  atef-hares
 linkedin_username:  atefhares
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: 
+google_analytics:
 
 # Comment Service (Disqus or 多说)
 #  choose one and un-comment the line to active it
@@ -45,12 +41,10 @@ plugins_dir:  _plugins
 layouts_dir:  _layouts
 data_dir:     _data
 includes_dir: _includes
-collections:
-  posts:
-    output:   true
+sass:
+  sass_dir: /resources/_sass
 
 # Plugins
-whitelist: []
 gems:
  - jekyll-paginate
  - jekyll-gist

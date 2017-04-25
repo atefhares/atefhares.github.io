@@ -4,20 +4,20 @@
     font-weight: bold;
 }
 a.btn-cta-primary, .btn-cta-primary {
-  	float:right !important;
-    text-decoration: none !important;
-    border:1px solid #26ad52 !important;
-    color: #26ad52 !important;
-    background: #fff !important;
-    font-size:  14px !important;
+  	float:right ;
+    text-decoration: none ;
+    border:1px solid #26ad52 ;
+    color: #26ad52 ;
+    background: #fff ;
+    font-size:  14px ;
     padding: 1px 8px !important;
-    text-transform: uppercase !important;
+    text-transform: uppercase ;
 }
 
 a.btn-cta-primary:hover, .btn-cta-primary:focus {
-  background: #1AAD6C !important;
-  border: 1px solid #fff !important;
-  color: #fff !important;
+  background: #1AAD6C ;
+  border: 1px solid #fff ;
+  color: #fff ;
 }
 
 a.btn-cta-primary:visited, .btn-cta-primary:visited {
@@ -52,10 +52,6 @@ a.btn-cta-primary:visited, .btn-cta-primary:visited {
 */
 
 @media (max-width: 767px) {
-    body{
-        padding: 0  !important;
-    }
-
     .btn, a.btn {
         -webkit-transition: all 0.4s ease-in-out;
         -moz-transition: all 0.4s ease-in-out;
@@ -79,28 +75,28 @@ a:hover {
   color: #0092b5;
 }
 a:focus {
-  text-decoration: none !important;
+  text-decoration: none ;
 }
 p {
-  line-height: 1.5 !important;
+  line-height: 1.5 ;
 }
 
 div {
-    display: block !important;
+    display: block ;
 }
 
 h3 {
-    font-size: 1.17em !important;
-    font-weight: 700 !important;
+    font-size: 1.17em ;
+    font-weight: 700 ;
 }
 h2 {
-    display: block !important;;
-    font-size: 1.5em !important;;
-    -webkit-margin-before: 0.83em !important;;
-    -webkit-margin-after: 0.83em !important;;
-    -webkit-margin-start: 0px !important;;
-    -webkit-margin-end: 0px !important;;
-    font-weight: bold !important;;
+    display: block ;;
+    font-size: 1.5em ;;
+    -webkit-margin-before: 0.83em ;;
+    -webkit-margin-after: 0.83em ;;
+    -webkit-margin-start: 0px ;;
+    -webkit-margin-end: 0px ;;
+    font-weight: bold ;;
 }
 
 .main-wrapper {
@@ -117,13 +113,13 @@ h2 {
 
 .main-wrapper .section-title {
   text-transform: uppercase;
-  font-size: 20px !important;
-  font-weight: 500 !important;
-  color: #2981D5 !important;
-  position: relative !important;
-  margin-top: 0 !important;
+  font-size: 20px ;
+  font-weight: 500 ;
+  color: #2981D5 ;
+  position: relative ;
+  margin-top: 0 ;
   margin-bottom: 20px;
-  border-bottom: 0 !important;
+  border-bottom: 0 ;
 }
 .main-wrapper .section-title .fa {
   width: 30px;
@@ -158,9 +154,9 @@ h2 {
   margin-bottom: 2px;
 }
 .main-wrapper .job-title {
-  color: #545E6C  !important ;
-  border-bottom: 0 !important;
-  margin-top:0 !important;
+  color: #545E6C   ;
+  border-bottom: 0 ;
+  margin-top:0 ;
 }
 
 .main-wrapper .time {
@@ -190,11 +186,11 @@ h2 {
   overflow: hidden;
 }
 .skillset .level-title {
-  font-size: 15px !important;
+  font-size: 15px ;
   margin-top: 0;
   margin-bottom: 12px;
-  border-bottom: 0 !important;
-  color: #545E6C  !important ;
+  border-bottom: 0 ;
+  color: #545E6C   ;
 }
 
 .copyright {
