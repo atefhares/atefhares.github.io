@@ -16,8 +16,8 @@ a.btn-cta-primary, .btn-cta-primary {
 
 a.btn-cta-primary:hover, .btn-cta-primary:focus {
   background: #1AAD6C ;
-  border: 1px solid #fff ;
-  color: #fff ;
+  border: 1px solid #fff !important;
+  color: #fff !important;
 }
 
 a.btn-cta-primary:visited, .btn-cta-primary:visited {
