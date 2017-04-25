@@ -5,7 +5,7 @@
 </noscript> -->
 
 <iframe name="formSending" class="hidden" style="width:0;height:0;border:0; border:none;"></iframe>
-<form id="contact" target="formSending" action="https://docs.google.com/forms/d/e/1FAIpQLScmQHTuCtEDjp_ZoIgtO3RZIOsZU6TVdEHGZVZEI1IBld5-Jw/formResponse" method="post" autocomplete="off" onsubmit="onSave();return false;">
+<form id="contact" class="hidden" target="formSending" action="https://docs.google.com/forms/d/e/1FAIpQLScmQHTuCtEDjp_ZoIgtO3RZIOsZU6TVdEHGZVZEI1IBld5-Jw/formResponse" method="post" autocomplete="off" onsubmit="onSave();return false;">
   <div class="row">
     <div class="col-md-6">
       <input type="text" placeholder="Name" name="entry.467486401" required="required" />
@@ -39,6 +39,13 @@
 <div id="sent" class="hidden">
   <h1>Your message have been recorded <i class="fa fa-check"> </i> </h1>
   <p>I will try to contact you ASAP</p>
+  <div class="sub">
+    <p><a href="{{ site.baseurl }}/">Home</a></p>
+  </div>
+</div>
+<div id="noscript">
+  <h1>Javascript is disabled <i class="fa fa-exclamation-circle" aria-hidden="true"></i> </h1>
+  <p>Please enable Javascript to use the cotact form.</p>
   <div class="sub">
     <p><a href="{{ site.baseurl }}/">Home</a></p>
   </div>

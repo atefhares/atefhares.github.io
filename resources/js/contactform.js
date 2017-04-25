@@ -1,6 +1,8 @@
 $(document).ready(function() {
   $("#questiondiv").removeClass("hidden")
-
+  $("#contact").removeClass("hidden");
+  $("#noscript").addClass("hidden");
+  
   var num1;
   var num2;
   var correct;
