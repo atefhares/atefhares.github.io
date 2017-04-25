@@ -21,7 +21,8 @@ $(document).ready(function() {
   $("#contact").submit(function(event) {
     answer = $("#answer").val();
     if (answer == correct) {
-
+      $("#contact").addClass("hidden")
+      $("#sent").removeClass("hidden")
     } else {
       //Result is not a number. Alert the user.
       event.preventDefault();
@@ -32,6 +33,5 @@ $(document).ready(function() {
       showMath();
     }
   });
-
 
 });

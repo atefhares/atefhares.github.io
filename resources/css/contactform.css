@@ -65,7 +65,7 @@
 }
 
 #wronganswer{
-	color: #DC143C ;
+	color: #DC143C !important;
 }
 
 #wronganswer .hidden{
@@ -73,4 +73,51 @@
 }
 #answer{
 	padding: 5px ;
+}
+
+#sent{
+  padding-top: 50px;
+  display: block;
+  text-align: center;
+}
+
+#sent h1{
+  font-family: 'Lobster', cursive ;
+	color:#3DC480 !important;
+	text-shadow:1px 1px 6px #fff ;
+	border-bottom: 0px !important;
+}
+
+#sent p{
+	color:#BCBAC7 ;
+	font-size: 25px ;
+}
+
+#sent a{
+	color:white;
+	background:#289C61 ;
+	text-decoration:none;
+	padding:0.5em 6em;
+	font-size:15px;
+	font-family: arial, serif;
+	font-weight:bold;
+	-webkit-border-radius:3em;
+	-moz-border-radius:.1em;
+	-border-radius:.1em;
+}
+
+@media (max-width: 1200px) {
+
+	#sent a{
+		font-size: 0.8em;
+		padding:0.5em 3em;
+	}
+	#sent p{
+		font-size: 1em ;
+	}
+
+	#sent h1{
+		font-size: 2em ;
+	}
+
 }
