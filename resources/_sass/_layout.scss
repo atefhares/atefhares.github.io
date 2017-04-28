@@ -14,7 +14,6 @@
 	padding: 10px;
 	margin: 0;
 	background-color: $header-bg;
-	padding: 10px;
 	margin: 0;
 
 	&:after {
@@ -47,7 +46,7 @@
 		a {
 			text-decoration: none;
 			color: $header-link;
-			padding: 5px 20px;
+			padding: 3px 20px;
 			white-space: nowrap;
 
 			&:hover, &:focus {
@@ -59,8 +58,8 @@
 
 		.circle{
 			border:1px solid #FFF;
-			-moz-border-radius:75px;
-			-webkit-border-radius: 75px;
+			-moz-border-radius:20px;
+			-webkit-border-radius: 20px;
 		}
 	}
 }
