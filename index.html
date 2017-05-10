@@ -82,8 +82,8 @@ public: false
         <!--//upper-row-->
         <div class="company">
           <a href="https://www.mobileapplaunchpad.com.eg" target="_blank">
-                    Mobile Application Launchpad Program (MAL)
-          </a> | Egypt
+                    Mobile Application Launchpad Program (MAL) - powered by Google & Udacity.
+          </a> | Online, Egypt
         </div>
       </div>
       <!--//meta-->
@@ -91,7 +91,8 @@ public: false
         <p>
           This program is designed to target candidates with strong background in programming (at least 2 years)
           and Java in particular then enroll them in an Intermediate Android Apps Developing course delivered
-          by <b>Google</b> on <b>Udacity</b> and supported by a well-known partners like:
+          by <b>Google</b> on <b>Udacity</b>.
+          <br/>The program is supported by a well-known partners like:
           <a href="http://www.tiec.gov.eg/" target="_blank">TIEC</a>
           ,
           <a href="http://www.iti.gov.eg/" target="_blank">ITI</a>
@@ -102,8 +103,6 @@ public: false
           ,
           <a href="http://wuzzuf.net/" target="_blank">Wuzzuf</a>
           and some others.
-
-          <br/>
           <br/> During the program every trainee studied the course and worked on the in-course project and then to graduate every trainee made a graduation project which reviewed by Udacity Coaches.
         </p>
       </div>
@@ -215,10 +214,11 @@ public: false
     </div>
   </section>
   <!--//skills-section-->
-
+ {% if site.linkedin_username %}
   <div class="pull-right" >
-    <a class="more-link pull-right" href="https://eg.linkedin.com/in/{{ site.linkedin_username }}" target="_blank"><i class="fa fa-external-link"></i> More about me on LinkedIn</a>
+    <a class="more-link pull-right" href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank"><i class="fa fa-external-link"></i> More about me on LinkedIn</a>
   </div>
+  {% endif %}
 
 </div>
 
