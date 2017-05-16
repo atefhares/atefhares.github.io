@@ -38,8 +38,15 @@ a.btn-cta-primary:visited, .btn-cta-primary:visited {
     float: right;
 }
 
+.label-primary {
+    display: inline-block;
+    margin: 2px;
+}
 
-
+.panel-transparent {
+  background: none;
+  margin: -15px;
+}
 
 /* The following is:
  * Modified by Atef Hares

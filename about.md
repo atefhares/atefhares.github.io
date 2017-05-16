@@ -3,7 +3,6 @@ layout: post
 title: "About this website"
 permalink: /aboutsite.html
 nocomments: true
-public: false
 ---
 
 Hi, I am Atef Hares and this is my personal website and blog, I will be sharing info about my career life and I will also share my thoughts as posts on the blog! feel free to visit, comment, share and connecting with me :wink:
