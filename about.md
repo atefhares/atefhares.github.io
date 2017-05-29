@@ -10,9 +10,9 @@ Hi, I am Atef Hares and this is my personal website and blog, I will be sharing 
 
 ### Copyrights:exclamation: ###
 
-* This website is forked from [laobubu](http://laobubu.net)'s Jekyll Blog theme: [EasyBook](https://github.com/laobubu/jekyll-theme-EasyBook) and modified by me.
+* This website is forked from [laobubu](http://laobubu.net)'s Jekyll Blog theme: [EasyBook](https://github.com/laobubu/jekyll-theme-EasyBook), and modified by me.
 
-* Also the info part of the Home page (the about-me page) is initially cutted from the [Xiaoying Riley](http://themes.3rdwavemedia.com/)'s template [Orbit](http://themes.3rdwavemedia.com/website-templates/orbit-free-resume-cv-template-for-developers/) and modified by me!
+* Also the info part of the Home page (the about-me page) is initially cutted from [Xiaoying Riley](http://themes.3rdwavemedia.com/)'s template: [Orbit](http://themes.3rdwavemedia.com/website-templates/orbit-free-resume-cv-template-for-developers/), and modified by me!
 
 * Unless otherwise mentioned, the Blog content is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/)
  	<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
