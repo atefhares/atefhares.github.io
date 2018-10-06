@@ -1,12 +1,4 @@
-## About
-
-Atef Hares's personal blog.
-
-A personal blog contains my own thoughts
-
-## Author
-- Atef Hares
-- Web site: [https://atefhares.github.io/](https://atefhares.github.io/)
+An online website contains my personal info and thoughts.  
 
 ## Licenses
 - <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
@@ -18,10 +10,5 @@ A personal blog contains my own thoughts
     </a> is licensed under a
     <a style="color:#0004ff" rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
     </a>
-    
-    
-- Blog theme and code is released under [MIT license](LICENSE.md)
 
-#
-
-Original blog them: [jekyll-theme-EasyBook](https://github.com/laobubu/jekyll-theme-EasyBook)
+- This is template is originally forked from [Jekyll-Now](https://github.com/barryclark/jekyll-now).

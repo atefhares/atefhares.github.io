@@ -1,93 +1,83 @@
-# Site settings
-title: Atef Hares
-url: "https://atefhares.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
-baseurl: "" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
-description: Atef Hares | Self learner and Software developer
+#
+# This file contains configuration flags to customize your site
+#
 
-show_dir_listing: false
-version: v1.0.0
+# Name of your site (displayed in the header)
+name: Atef Hares
 
-# Outputting
-permalink: blog/:categories/:year/:month/:day/:title/
-paginate_path: "/blog/page:num"
-paginate: 5
-timezone: Africa/Cairo
+# Short bio or description (displayed in the header)
+description: Self Learning, Computer Science, Mathematics, Android, Software Engineering
 
-liquid:
-  error_mode: warn
+# URL of your avatar or profile pic (you could use your GitHub profile pic)
+avatar: https://avatars1.githubusercontent.com/u/14354272?v=3&s=400
 
-# Your information
-email: atef_moh@sci.asu.edu.eg
-author: Atef Hares
-avatar: "/resources/images/profile.png"
-profile: Self learner and Software developer
-#twitter_username: mratefhares
-github_username:  atefhares
-stack-overflow_username:  atef-hares
-linkedin_username:  atefhares
+#
+# Flags below are optional
+#
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  email: atef_moh@sci.asu.edu.eg
+  github: atefhares
+  linkedin: atefhares
+  rss: anything # just type anything here for a working RSS icon
+  twitter:
+  stackoverflow: users/5993410/atef-hares # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
+disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
 
-# Comment Service (Disqus or 多说)
-#  choose one and un-comment the line to active it
-#disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
-#duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
+# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
+# Used for Sitemap.xml and your RSS feed
+url: https://atefhares.github.io
 
-# Where things are
-source:       .
-destination:  ./_site
-plugins_dir:  _plugins
-layouts_dir:  _layouts
-data_dir:     _data
-includes_dir: _includes
-sass:
-  sass_dir: /resources/_sass
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+baseurl: ""
 
-# Plugins
-gems:
- - jekyll-paginate
- - jekyll-gist
- - jemoji
- - jekyll-sitemap
+#
+# !! You don't need to change any of the configuration flags below !!
+#
 
-# Handling Reading
-safe:         false
-include:      [".htaccess"]
-exclude:      ["Gemfile", "Gemfile.lock", "LICENSE.md", "README.md", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
-keep_files:   [".git", ".svn"]
-encoding:     "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+permalink: /:title/
 
+# The release of Jekyll Now that you're using
+version: v1.2.0
 
-# Filtering Content
-show_drafts: null
-limit_posts: 0
-future:      false
-unpublished: false
-
-
-# Build settings
-highlighter: rouge
-markdown: kramdown
-
+# Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
-  auto_ids:       true
-  entity_output:  as_char
-  toc_levels:     1..6
-  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
   input: GFM
-  # https://github.com/jekyll/jekyll/pull/4090
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
   syntax_highlighter: rouge
-
-  # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
-  # span, block element options fall back to global
   syntax_highlighter_opts:
-    # Rouge Options › https://github.com/jneen/rouge#full-options
+    # Use existing pygments syntax highlighting css
     css_class: 'highlight'
-    #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :expanded # You might prefer to minify using :compressed
+
+# Use the following plug-ins
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+
+collections:
+  projects:
+    output: true
