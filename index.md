@@ -12,8 +12,6 @@ I am currently interested in R&D CS/SW, Security, Android development. In genera
 
 Download my <a target="_blank" href="{{ site.baseurl }}/files/atefhares_resume.pdf">**Resume**</a>
 
-<!-- Download my <a target="_blank" href="{{ site.baseurl }}/files/atefhares_resume.pdf">**Resume**</a> or <a target="_blank" href="{{ site.baseurl }}/files/atefhares_cv.pdf">**CV**</a> -->
-
 ------------------------------------------------------------------------------
 
 **Email:** {% if site.footer-links.email %} <a href="mailto:{{ site.footer-links.email }}">{{ site.footer-links.email }}</a> {% endif %}
